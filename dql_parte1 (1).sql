@@ -1,7 +1,3 @@
--- Banco de Dados I
--- Lista de exercícios - DQL Parte I
--- Base: mercado
-
 -- Questão 01
 -- Quantas linhas da tabela fato_vendas não têm cliente identificado?
 SELECT COUNT(*) AS vendas_sem_cliente
