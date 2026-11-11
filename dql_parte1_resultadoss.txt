@@ -1,0 +1,185 @@
+BANCO DE DADOS I — DQL PARTE I
+Base: 108 lojas, 240 produtos, 800 clientes e 15.000 linhas de vendas.
+
+QUESTÃO 01
+906 linhas de venda sem cliente identificado.
+
+QUESTÃO 02
+746 clientes diferentes aparecem na tabela fato_vendas.
+
+QUESTÃO 03
+Faturamento total em 2025: R$ 388.250,31.
+
+QUESTÃO 04
+Marcas da categoria Higiene (16):
+Colgate, Dove, Elseve, Huggies, Lux, Mili, Neve, Nivea, Oral-B, Pampers,
+Pantene, Personal, Protex, Rexona, Seda e Sorriso.
+
+QUESTÃO 05
+Média de valor_total das vendas do Aplicativo: R$ 52,27.
+Valor médio sem arredondamento monetário: aproximadamente R$ 52,2665833631.
+
+QUESTÃO 06
+20 produtos da categoria Bebidas têm preço de tabela acima de R$ 10,00.
+
+QUESTÃO 07
+Produto mais caro:
+Nome: Ração para Cães 10kg
+Marca: Premier
+Preço de tabela: R$ 140,29.
+
+QUESTÃO 08
+Quantidade de produtos por categoria:
+Mercearia: 49
+Bebidas: 39
+Higiene: 34
+Laticínios: 32
+Limpeza: 27
+Congelados: 20
+Carnes: 13
+Padaria: 10
+Hortifruti: 8
+Pet: 8
+
+QUESTÃO 09
+Preço médio de tabela por categoria:
+Pet: R$ 76,15
+Carnes: R$ 37,82
+Congelados: R$ 33,18
+Higiene: R$ 25,85
+Bebidas: R$ 19,26
+Limpeza: R$ 17,57
+Laticínios: R$ 14,51
+Mercearia: R$ 14,50
+Padaria: R$ 8,22
+Hortifruti: R$ 6,24
+
+QUESTÃO 10
+Cidades com pelo menos 60 clientes:
+Brasília: 245
+Taguatinga: 92
+Ceilândia: 81
+Goiânia: 68
+Águas Claras: 64
+Samambaia: 63
+
+QUESTÃO 11
+75 clientes não informaram e-mail.
+
+QUESTÃO 12
+74 clientes do sexo feminino nasceram entre 01/01/1990 e 31/12/1999.
+
+QUESTÃO 13
+11 clientes têm Ana como primeiro nome.
+
+QUESTÃO 14
+Lojas por UF (somente UFs com mais de 3 lojas):
+DF: 56
+GO: 41
+MG: 4
+
+QUESTÃO 15
+Lojas inauguradas antes de 01/01/2007:
+2005-01-20 — Bom Dia Cruzeiro — Brasília
+2005-03-14 — Bom Dia Jardim Tiradentes — Aparecida de Goiânia
+2005-04-15 — Bom Dia Sobradinho I — Sobradinho
+2005-06-04 — Bom Dia Aparecida Centro — Aparecida de Goiânia
+2005-08-07 — Bom Dia Colônia Agrícola Samambaia — Vicente Pires
+2005-08-21 — Bom Dia Octogonal — Brasília
+2005-10-15 — Bom Dia Sobradinho II — Sobradinho
+2006-04-07 — Bom Dia Samambaia Norte — Samambaia
+2006-04-12 — Bom Dia Centro Uberlândia — Uberlândia
+2006-08-12 — Bom Dia Pistão Sul — Taguatinga
+2006-12-06 — Bom Dia Jardim Goiás — Goiânia
+2006-12-07 — Bom Dia Luziânia Centro — Luziânia
+2006-12-16 — Bom Dia Taguatinga Centro — Taguatinga
+2006-12-20 — Bom Dia P Norte — Ceilândia
+
+QUESTÃO 16
+Faturamento por canal em 2025:
+Loja física: R$ 276.534,24
+Aplicativo: R$ 76.340,05
+Site: R$ 35.376,02
+
+QUESTÃO 17
+Canal Loja física — linhas de venda e faturamento por forma de pagamento:
+Cartão de crédito: 3.237 linhas — R$ 166.687,46
+Cartão de débito: 3.222 linhas — R$ 163.300,11
+Pix: 2.684 linhas — R$ 141.486,51
+Dinheiro: 1.627 linhas — R$ 80.073,40
+
+QUESTÃO 18
+10 produtos com mais unidades vendidas (id_produto — unidades):
+28 — 1.333
+89 — 827
+224 — 804
+136 — 587
+163 — 555
+113 — 532
+132 — 504
+223 — 470
+6 — 436
+127 — 374
+
+QUESTÃO 19
+5 lojas com maior faturamento em 2024 (id_loja — faturamento):
+3 — R$ 23.884,53
+17 — R$ 13.507,46
+6 — R$ 12.672,20
+56 — R$ 11.476,51
+4 — R$ 10.963,94
+
+QUESTÃO 20
+Lojas com mais de 300 linhas de venda (id_loja — quantidade):
+3 — 886
+49 — 476
+11 — 459
+6 — 444
+9 — 440
+4 — 434
+56 — 429
+2 — 420
+17 — 410
+23 — 316
+
+QUESTÃO 21
+Clientes com 70 ou mais linhas de venda (id_cliente — quantidade):
+416 — 169
+684 — 135
+9 — 126
+186 — 122
+563 — 113
+323 — 97
+395 — 95
+290 — 81
+501 — 78
+90 — 75
+129 — 75
+198 — 71
+242 — 70
+
+QUESTÃO 22
+2.653 linhas de venda tiveram desconto.
+Desconto médio: R$ 5,25.
+
+QUESTÃO 23
+Menor valor_total em dezembro de 2025: R$ 2,67.
+Maior valor_total em dezembro de 2025: R$ 654,20.
+
+QUESTÃO 24
+Em 24/12/2025: 24 linhas de venda.
+Faturamento do dia: R$ 1.281,83.
+
+QUESTÃO 25
+10 vendas do Site em 2025 com maiores percentuais de desconto.
+Colunas: id_venda — valor bruto — desconto — valor_total — percentual:
+8328 — R$ 3,45 — R$ 0,52 — R$ 2,93 — 15,07%
+8282 — R$ 6,71 — R$ 1,01 — R$ 5,70 — 15,05%
+13421 — R$ 7,32 — R$ 1,10 — R$ 6,22 — 15,03%
+8261 — R$ 18,04 — R$ 2,71 — R$ 15,33 — 15,02%
+13288 — R$ 19,84 — R$ 2,98 — R$ 16,86 — 15,02%
+9109 — R$ 25,97 — R$ 3,90 — R$ 22,07 — 15,02%
+12716 — R$ 20,38 — R$ 3,06 — R$ 17,32 — 15,01%
+13839 — R$ 3,73 — R$ 0,56 — R$ 3,17 — 15,01%
+14190 — R$ 3,73 — R$ 0,56 — R$ 3,17 — 15,01%
+10654 — R$ 11,06 — R$ 1,66 — R$ 9,40 — 15,01%
